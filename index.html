@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-login">
+        <div id="register-app" class="register">
+            <div class="title">
+            <h1>Registrarse</h1>
+        </div>
+        <input class="input-styles" id="user"  type="text" placeholder="Nombre de Usuario">
+        <input class="input-styles" id="password" type="password" placeholder="Contraseña">
+        <button class="button-styles" type="reset" onclick="createToArr(usuarios)">Registrarse!</button>
+        <button id="animation-button" onclick="animationButton()" class="button-styles">¿Ya tienes una cuenta?</button>
+    </div>
+    <div id="login-app" class="login">
+        <div class="title">
+        <h1>Entrar</h1>
+    </div>
+        <input class="input-styles" id="user"  type="text" placeholder="Nombre de Usuario">
+        <input class="input-styles" id="password" type="password" placeholder="Contraseña">
+        <button class="button-styles" onclick="createToArr(usuarios)">Login</button>
+    </div>
+    </div>
+</body>
+</html>
